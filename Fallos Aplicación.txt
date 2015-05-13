@@ -1,0 +1,35 @@
+- Notas parciales (grupos): arreglar la base de datos para que salgan datos reales.
+
+- Notas parciales (alumnos): no se ven los alumnos de la base de datos.
+
+- Notas parciales (alumnos): el buscador no funciona.
+
+- Comentarios (asignaturas): no se ven las asignaturas de la base de datos.
+
+- Comentarios (alumnos): no se ven los alumnos de la base de datos.
+
+- Comentarios (comentarios): meter comentarios reales.
+
+-  Horarios: meter mas horas.
+
+- Faltas de alumnos: Hacer.
+
+- Retrasos: Acabar.
+
+- Listado de alumnos y fotos: Arreglar todo y acabarlo.
+
+- Correo a los profesores del grupo: Hacer.
+
+- Falta de profesores (borrar): arreglar popup.
+
+- Falta de profesores (insertar): arreglar las horas para que la hora hasta solo pueda ser mayor que la hora desde.
+
+- Reservar recursos (insertar): arreglar las horas para que la hora hasta solo pueda ser mayor que la hora desde.
+
+- Reservar recursos (borrar): arreglar popup.
+
+- Reservar recursos (inicio): arreglar botón de retroceso.
+
+- Publicar fechas de examenes y actividades: Acabar.
+
+-Añadir equipo directivo
