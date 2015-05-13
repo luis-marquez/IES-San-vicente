@@ -1,0 +1,11 @@
+<ion-view view-title="Grupo">
+  <ion-content class="padding" has-header="true">
+  <h3>Tus grupos:</h3>
+   <div class="list">
+      <a class="item item-icon-right" href="#/reservas_asignatura/{{fecha}}/{{horad}}/{{horah}}/{{aula}}/{{aulacodigo}}/{{curso}}/{{cursocodigo}}/{{grupo.nombre}}/{{grupo.codigo}}" ng-repeat="grupo in grupos">
+	  <i class="ion-checkmark-round"></i>
+	  {{grupo.nombre}}
+	  </a>
+    </div>
+  </ion-content>
+</ion-view>

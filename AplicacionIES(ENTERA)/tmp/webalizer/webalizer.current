@@ -1,0 +1,527 @@
+# Webalizer V2.23-05 Incremental Data - 05/12/2015 18:41:50
+2015 5 12 18 41 50
+6339 5600 35 108 9 25 56377848 1375 54 0
+8 90 2165 2 12
+0 0 0 0 0 0
+343 323 4132482 1 92 2
+85 82 733464 1 32 1
+473 424 3846138 8 206 8
+33 29 347507 3 6 2
+192 121 799827 10 56 4
+328 246 1895500 11 124 7
+122 36 209787 7 39 3
+235 193 2377884 2 62 2
+3459 3376 36090407 2 458 4
+457 340 2885187 9 186 9
+612 430 3059665 8 114 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+15 6 5890 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+78 77 734940 31
+189 186 1485716 70
+69 60 557979 10
+157 147 1317447 55
+272 268 2224582 105
+358 276 2756993 102
+148 83 31658 14
+109 98 741994 40
+2440 2340 26195299 352
+1336 1322 14358458 182
+49 45 191706 6
+337 208 1422571 160
+186 138 1481522 47
+59 59 569659 1
+207 68 541466 88
+132 34 211565 42
+193 180 1545154 67
+5 5 3249 0
+0
+0
+0
+5600
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+604
+0
+0
+0
+0
+0
+0
+131
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/js/motivo_controller.js
+0 92 0 24735 0 0
+/lib/css/ionic.min.css
+0 101 0 14654356 0 0
+/templates/todos_alumnos.html
+0 24 0 11172 0 0
+/templates/comentario_grupo.html
+0 25 0 7380 0 0
+/templates/reservas.html
+0 10 0 2611 1 3
+/templates/reservas_fecha.html
+0 5 0 1648 0 0
+/templates/reserva_aula.html
+0 3 0 1143 0 2
+/ed_grupos.php
+0 8 0 3748 0 0
+/grupo_profesores.php
+0 61 0 5192 0 0
+/templates/horad.html
+0 25 0 19300 0 0
+/lista_profesores.php
+0 3 0 1975 0 0
+/fotos_profesores.php
+0 4 0 2524 0 0
+/ver_grupos.php
+0 55 0 27154 0 0
+/js/fotos_profesores_controller.js
+0 94 0 24186 0 0
+/js/horah_controller.js
+0 92 0 15555 0 0
+/templates/comentario_menu.html
+0 38 0 28327 1 0
+/js/comentario_grupo_controller.js
+0 92 0 27795 0 0
+/js/enviar_comentario_controller.js
+0 94 3761118349668215927 46371 0 0
+/templates/seleccion_grupo.html
+0 24 85 9367 0 0
+/templates/fotos_profesores.html
+0 25 4049068341764962612 12260 0 0
+/js/comentario_menu_controller.js
+0 102 0 16926 0 0
+/js/borrarfaltas_controller.js
+0 92 0 57800 0 0
+/js/notasp_insertar_controller.js
+0 94 0 112491 0 0
+/templates/ed_seleccion_grupo_coment.html
+0 25 0 12680 0 0
+/templates/resumen.html
+0 22 0 17586 1 0
+/js/verfaltas_controller.js
+0 92 0 14195 0 0
+/templates/seleccion_alumno.html
+0 26 0 28791 0 0
+/asignaturas_por_profe_y_grupo.php
+0 25 0 3765 0 0
+/templates/borrarfaltas.html
+0 26 0 11802 0 0
+/js/ed_seleccion_grupo_coment_controller.js
+0 94 0 27405 0 0
+/lib/js/ionic.bundle.min.js
+0 98 0 31943255 0 0
+/js/trabajo_controller.js
+0 94 0 18966 0 0
+/templates/notasp_ver_alumnos.html
+0 27 0 9636 1 0
+/templates/horah.html
+0 88 0 92086 0 0
+/templates/ver_comentario.html
+0 26 0 5859 0 0
+/js/menu_listado_alumnos_profesores_controller.js
+0 94 0 15138 0 0
+/templates/horario_menu.html
+0 79 0 162525 2 8
+/js/reserva_horad_controller.js
+0 93 0 16008 0 0
+/templates/horario.html
+0 7 0 565 0 1
+/horario2.php
+0 104 0 47500 0 0
+/js/app.js
+0 114 0 776139 0 0
+/templates/reserva_horad.html
+0 3 0 3567 0 0
+/ver_alumnos.php
+0 60 0 2629 0 0
+/listadocentes.php
+0 11 0 4831 0 0
+/js/lista_profesores_controller.js
+0 92 0 23885 0 0
+/js/grupos_profesores_controller.js
+0 92 0 26265 0 0
+/templates/fecha.html
+0 94 0 40716 2 0
+/js/reservas_curso_controller.js
+0 93 0 39759 0 0
+/templates/login.html
+0 25 0 17117 2 1
+/templates/menu_listado_alumnos_profesores.html
+0 36 0 45534 1 9
+/js/reservas_quitar_controller.js
+0 93 0 17922 0 0
+/templates/verfaltas.html
+0 25 0 10180 0 0
+/verfaltas.php
+0 17 0 16335 0 0
+/templates/faltas.html
+0 25 0 6640 0 0
+/fotografias_alumnos.php
+0 10 0 440 0 0
+/js/reservas_asignaturas_controller.js
+0 93 0 57594 0 0
+/ver_comentarios.php
+0 19 0 326051 0 0
+/logearse.php
+0 54 0 1370 0 0
+/comentarios_por_grupo.php
+0 2 0 10 0 0
+/js/todos_alumnos_controller.js
+0 94 18446744073709551615 26535 0 0
+/templates/seleccion_asignaturas.html
+0 26 0 15519 0 2
+/js/fecha_controller.js
+0 93 0 21672 0 0
+/js/reserva_grupo_controller.js
+0 93 0 47241 0 0
+/js/ver_comentario_controller.js
+0 94 140606969842112 30972 0 0
+/templates/reservas_quitar.html
+0 4 0 1984 0 0
+/js/reserva_formulario_controller.js
+0 93 0 87957 0 0
+/js/menu_principal_controller.js
+0 96 0 15397 0 0
+/templates/menu_principal.html
+0 67 0 63021 4 1
+/js/horad_controller.js
+0 92 0 12495 0 0
+/js/alumnos_por_grupo_controller.js
+0 92 0 103955 0 0
+/js/reservas_listar_controller.js
+0 93 0 16443 0 0
+/js/login_controller.js
+0 92 0 54652 0 0
+/js/seleccion_asignaturas_controller.js
+0 94 0 36888 0 0
+/templates/grupos_profesores.html
+0 25 0 7840 0 0
+/insertar_coment.php
+0 4 0 0 0 0
+/js/grupos_listado_controller.js
+0 94 0 24186 0 0
+/js/reserva_horah_controller.js
+0 93 0 12963 0 0
+/js/horario_menu_controller.js
+0 78 0 16330 0 0
+/todos_alumnos.php
+0 9 0 45 0 0
+/js/notasp_ver_grupos_controller.js
+0 94 0 15921 0 0
+/
+0 139 0 327314 36 1
+/templates/trabajo.html
+0 88 0 22550 0 0
+/js/reservas_controller.js
+0 93 0 5133 0 0
+/horarios.php
+0 27 0 53373 0 0
+/ed_alumnos_grupo.php
+0 6 0 284 0 0
+/js/seleccion_alumno_controller.js
+0 95 0 29920 0 0
+/templates/enviar_comentario.html
+0 26 0 8820 0 0
+/js/selecprof_controller.js
+0 92 0 20485 0 0
+/templates/reserva_horah.html
+0 3 0 3246 0 0
+/eliminar_coment.php
+0 2 0 0 0 0
+/lib/fonts/ionicons.ttf
+0 47 0 5759180 0 0
+/js/seleccion_grupo_controller.js
+0 95 0 31416 0 0
+/js/reservas_fecha_controller.js
+0 93 0 9831 0 0
+/js/reserva_aula_controller.js
+0 93 0 31929 0 0
+/templates/reservas_listar.html
+0 3 0 1299 0 3
+/templates/grupos_listado.html
+0 26 0 6762 0 1
+/js/faltas_controller.js
+0 92 0 4845 0 0
+/templates/eliminar_comentario.html
+0 25 0 10060 0 0
+/templates/notasp_insertar.html
+0 21 0 22482 0 1
+/js/notasp_ver_alumnos_controller.js
+0 94 0 22707 0 0
+/js/resumen_controller.js
+0 92 0 56525 0 0
+/templates/motivo.html
+0 92 0 242505 1 0
+/templates/selecprof.html
+0 25 0 6380 0 0
+/templates/lista_profesores.html
+0 26 0 8211 0 1
+/js/eliminar_comentario_controller.js
+0 94 0 88566 0 0
+/templates/alumnos_por_grupo.html
+0 24 0 24073 0 0
+/ED_listado_grupos.php
+0 7 0 3300 0 0
+/templates/notasp_ver_grupos.html
+0 27 0 5874 1 1
+# End Of Table - urls
+# -sites- (monthly)
+194.183.97.3
+0 11 11 21652 0 0
+-
+144.red-79-147-225.dynamicip.rima-tde.net
+0 12 12 635 0 0
+-
+static-81-75-225-77.ipcom.comunitel.net
+0 477 336 2257045 3 1431434663
+/templates/horario_menu.html
+crawl-66-249-67-15.googlebot.com
+0 6 5 162504 1 1430735279
+/templates/fotos_profesores.html
+crawl-66-249-67-14.googlebot.com
+0 28 28 540957 2 1431121921
+/templates/comentario_menu.html
+62.174.21.135.dyn.user.ono.com
+0 2 2 14 0 0
+-
+194.183.97.62
+0 9 9 40853 0 0
+-
+194.183.97.159
+0 81 56 561813 1 1431367233
+/templates/horario_menu.html
+199.19.249.196
+0 154 149 985842 7 1431455910
+/
+31.4.212.16
+0 7 7 1576 0 0
+-
+crawl-66-249-67-23.googlebot.com
+0 4 4 4255 1 1430735267
+/templates/seleccion_alumno.html
+205.142.17.95.dynamic.jazztel.es
+0 518 492 5607429 5 1430774269
+/templates/menu_listado_alumnos_profesores.html
+47-60-224-194.red-acceso.airtel.net
+0 8 0 0 1 1431455364
+/templates/menu_principal.html
+crawl-66-249-64-184.googlebot.com
+0 5 4 1119 0 0
+-
+81.60.45.82.dyn.user.ono.com
+0 1 1 196 0 0
+-
+195.57.19.96
+0 420 198 1891904 8 1431455921
+/
+47-60-44-33.red-acceso.airtel.net
+0 4 4 1901 0 0
+-
+194.183.97.10
+0 7 7 5043 0 0
+-
+47-60-44-167.red-acceso.airtel.net
+0 1 1 5 0 0
+-
+194.183.97.94
+0 3 1 1991 0 0
+-
+crawl-66-249-64-189.googlebot.com
+0 2 2 1195 0 0
+-
+31.4.210.191
+0 7 7 968 0 0
+-
+194.183.97.145
+0 10 0 0 1 1431365409
+/templates/horario_menu.html
+37.29.170.163
+0 11 11 2854 0 0
+-
+199.91.135.140
+0 16 15 174468 2 1431365820
+/templates/reservas_quitar.html
+181.135.17.95.dynamic.jazztel.es
+0 220 216 1539268 2 1430983352
+/templates/reserva_aula.html
+crawl-66-249-67-7.googlebot.com
+0 7 7 12616 1 1430735276
+/templates/fecha.html
+crawl-66-249-64-194.googlebot.com
+0 6 6 6085 1 1431361958
+/templates/menu_principal.html
+84.120.91.169.dyn.user.ono.com
+0 4140 3903 41793318 13 1431431772
+/
+84.120.74.180.dyn.user.ono.com
+0 3 3 2160 0 0
+-
+194.183.97.152
+0 53 53 569582 1 1431287607
+/
+37.29.152.6
+0 53 3 475 1 1430943762
+/templates/menu_principal.html
+crawl-66-249-67-1.googlebot.com
+0 22 20 169446 1 1430990626
+/templates/seleccion_alumno.html
+crawl-66-249-67-27.googlebot.com
+0 25 25 16036 2 1431121228
+/
+194.183.97.59
+0 6 6 2643 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+static-81-75-225-77.ipcom.comunitel.net
+0 229 93 56298 2 1431434663
+/templates/horario_menu.html
+62.174.21.135.dyn.user.ono.com
+0 2 2 14 0 0
+-
+199.19.249.196
+0 17 16 196399 2 1431455910
+/
+31.4.212.16
+0 7 7 1576 0 0
+-
+47-60-224-194.red-acceso.airtel.net
+0 8 0 0 1 1431455364
+/templates/menu_principal.html
+195.57.19.96
+0 88 76 401025 3 1431455921
+/
+37.29.170.163
+0 11 11 2854 0 0
+-
+84.120.91.169.dyn.user.ono.com
+0 250 225 2401499 4 1431431772
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://luis.iessv.es/
+0 5703
+- (Direct Request)
+0 542
+http://localhost:8383/profesores/
+0 3
+http://luis.iessv.es/lib/css/ionic.min.css
+0 40
+http://luis.iessv.es/mas/mio
+0 1
+http://www.luis.iessv.es/
+0 21
+http://luis.iessv.es/logearse.php
+0 1
+http://localhost:8383/profesores/index.html
+0 17
+http://luis.iessv.es/horarios.php
+0 11
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 4.4.4; Aquaris E5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.
+0 14
+Wget/1.13.4 (linux-gnu)
+0 23
+Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.40) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.
+0 14
+Mozilla/5.0 (Linux; Android 5.0.2; XT1032 Build/LXB22.46-28.1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/
+0 79
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-ie; GT-N7000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 19
+Mozilla/5.0 (Windows NT 6.3; rv:37.0) Gecko/20100101 Firefox/37.0
+0 78
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 37
+Mozilla/5.0 (Linux; Android 4.4.4; en-us; Nexus 4 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2307.2 Mob
+0 14
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0
+0 67
+Mozilla/5.0 (Linux; Android 5.0; Moto G Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobi
+0 6
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 609
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 155
+Mozilla/5.0 (Linux; Android 5.0.2; XT1032 Build/LXB22.46-28.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mo
+0 400
+BlueCoat ProxySG
+0 15
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safa
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+0 3214
+Mozilla/5.0 (Linux; Android 4.4.2; Android SDK built for x86 Build/KK) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chr
+0 17
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A4
+0 4
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 263
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Gecko/20100101 Firefox/37.0
+0 89
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 643
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/27.0.1453 Safari/537.36 (compatible; 
+0 66
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; MS-RTC LM 8; .NET CLR 3
+0 155
+Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 140
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 216
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

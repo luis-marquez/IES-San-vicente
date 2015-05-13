@@ -1,0 +1,10 @@
+<ion-view view-title="Quitar reservas">
+  <ion-content class="padding" has-header="true">
+  <h3>Tus Reservas:</h3>
+    <div class="list">
+      <a class="item item-icon-right" ng-click="PopUp({{reserva.horad}},{{reserva.dia}},{{reserva.descrip}})" ng-repeat="reserva in reservas">
+	  {{reserva.nombre}} {{reserva.apellido1}} {{reserva.apellido2}}</br> {{reserva.descrip}} </br>Día:{{reserva.dia}} </br>Hora:{{reserva.horad}} - {{reserva.horah}}
+	  </a>
+    </div>  
+  </ion-content>
+</ion-view>

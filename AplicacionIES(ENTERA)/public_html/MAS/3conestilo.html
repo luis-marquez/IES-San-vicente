@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multi-page template</title>
+	<!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.4.css"> -->
+	<link rel="stylesheet" href="themes/colores.min.css"> 
+	<link rel="stylesheet" href="themes/jquery.mobile. icons.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.4.css">		
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.4.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="hola" >
+
+	<div data-role="header">
+		<h1>Single page</h1>
+	</div><!-- /header -->
+	<div role="main" class="ui-content">
+		<ol data-role="listview" data-theme="b" data-inset="true">
+			<li><a href="https://iessanvicente.com/">IES San Vicente</a></li>
+			<li><a href="http://www.cocacola.es/">Coca Cola </a></li>
+			<li><a href="http://jquerymobile.com/">JQuey Mobile </a></li>
+			<li><a href="http://facebook.com">Facebook </a></li>
+			<li><a href="#parte">Ir a la parte dos"</a><li>
+		</ol>
+	</div>
+</div>	
+	
+	<div data-role="page" id="parte" data-theme="a">	
+		<table border="1" class="table table-hover">
+			<tr class="success"><th>hola</th><th>adios</th></tr>
+			<tr><td><A HREF="file:///C:/Users/Luis/Desktop/boot%202/index.html">hola</A></td><td>adios</td></tr>
+			<tr class="danger"><th>hola</th><th>adios</th></tr>
+			<tr><td>hola</td><td>adios</td></tr>
+		</table>
+		<ul>
+			<li>ADIOS</li>
+			<li>hola</li>
+			<li>hola</li>
+		</ul>
+		<div class="list-group">
+			<a class="list-group-item" href="http://iessanvicente.com">instituto</a>
+			<a class="list-group-item" href="http://www.google.com">Google</A>
+			<a class="list-group-item" href="http://www.mail.google.com">Gmail</a>
+			<a class="list-group-item" href="http://www.youtube.es">Youtube</a>
+			<a class="list-group-item" href="http://www.apple.es">Apple</a>
+		</div>
+		<form action="http://google.com/search" method="get">
+			<input type="text" name="q"/> 
+			<input type="submit"/ value="Buscar en Google">
+		</form>
+		
+		<form action="https://iessanvicente.com/iconsultas/alumno2.php" method="post">
+			<input type="password" name="numDni"/>
+			<input type="submit"/ value="DNI">
+		</form>
+
+
+		Gmail
+		<form action="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1" method="post">
+			<input type="email" name="Email"/>
+			<input type="password" name="Passwd"/>
+			<input type="submit"/ value="Gmail ;-)">
+			
+		</form>
+	</div>
+
+		<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>

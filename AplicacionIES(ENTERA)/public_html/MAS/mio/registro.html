@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jquery Mobile Example</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css">
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery.mobile-1.4.4.min.js"></script>
+		<script src="js/functions.js"></script>
+
+	</head>
+	
+	<body>
+	
+		<div data-role="page" id="registro">
+			<style type="text/css">
+			body {
+				background: url(http://www.fondosni.com/images/2013-03-09/Fondo%20de%20madera%20natural-85675.jpg);
+				background-position:center center;
+				background-repeat:repeat-y;
+				background-attachment:scroll;
+				background-size:100% 100%;
+			}
+			.ui-page {
+				background: transparent;
+			}
+			.ui-content{
+				background: transparent;
+			}
+			</style>
+			<center><h1 style="color: white;">Solo nos faltas tú</h1></center>
+			<div style="opacity: 0.9; color: white; width: 50%; margin-left: -25%; left: 50%; position: absolute; z-index: 2; opacity:0.8;">
+					<center>
+						<label for="file">Foto de perfil:</label>
+						<input  type="file" name="file" id="file" value="">
+						<label for="usu">Nombre de usuario:</label>
+						<input type="text" name="usu" id="Nombre de usuario:" placeholder="Nombre de usuario:">
+						<label for="correo">Correo electrónico:</label>					
+						<input type="email" data-clear-btn="true" name="correo" id="correo" placeholder="Email:">
+						<label for="password">Su contraseña:</label>
+						<input type="password" data-clear-btn="true" name="password" id="password" placeholder="Password:" autocomplete="off">
+						<label for="rpasssword">Repita la contraseña:</label>	
+						<input type="password" data-clear-btn="true" name="rpasssword" id="rpasssword" value=" Repeat password:" autocomplete="off">
+						<label for="fnaci">Su fecha de nacimiento</label>
+						<input type="date" name="fnaci" id="fnaci" value="">			
+					</center>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="./inicio.html" class="ui-btn ui-corner-all">Logeate</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

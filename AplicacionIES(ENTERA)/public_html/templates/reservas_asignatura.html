@@ -1,0 +1,11 @@
+<ion-view view-title="Asignatura">
+  <ion-content class="padding" has-header="true">
+  <h3>Asignaturas de {{grupo}}:</h3>
+   <div class="list">
+      <a class="item item-icon-right" href="#/reserva_formulario/{{fecha}}/{{horad}}/{{horah}}/{{aula}}/{{aulacodigo}}/{{curso}}/{{cursocodigo}}/{{grupo}}/{{grupocodigo}}/{{asignatura.nombre_cas}}/{{asignatura.codigo}}" ng-repeat="asignatura in asignaturas">
+	  <i class="ion-checkmark-round"></i>
+	  {{asignatura.nombre_cas}}
+	  </a>
+    </div>
+  </ion-content>
+</ion-view>

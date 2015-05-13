@@ -1,0 +1,375 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+# Last config file used to build this data file was /home/luis/tmp/awstats/awstats.luis.iessv.es.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2006                
+POS_TIME 2691                
+POS_VISITOR 6917                
+POS_DAY 8414                
+POS_DOMAIN 3357                
+POS_LOGIN 3627                
+POS_ROBOT 3782                
+POS_WORMS 3952                
+POS_EMAILSENDER 4083                
+POS_EMAILRECEIVER 4226                
+POS_SESSION 8761                
+POS_SIDER 8968                
+POS_FILETYPES 4361                
+POS_DOWNLOADS 4526                
+POS_OS 4574                
+POS_BROWSER 4760                
+POS_SCREENSIZE 5112                
+POS_UNKNOWNREFERER 5186                
+POS_UNKNOWNREFERERBROWSER 5305                
+POS_ORIGIN 5419                
+POS_SEREFERRALS 5561                
+POS_PAGEREFS 5705                
+POS_SEARCHWORDS 5941                
+POS_KEYWORDS 6093                
+POS_MISC 2355                
+POS_ERRORS 6152                
+POS_CLUSTER 3483                
+POS_SIDER_404 6250                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150512184150 9775 2175622 15170606984846
+FirstTime 20150502141124
+LastTime 20150512184150
+LastUpdate 20150512185712 126 0 126 0 0
+TotalVisits 71                  
+TotalUnique 26                  
+MonthHostsKnown 11                  
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 5890 2 8 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 33 77 734940 0 1 0
+7 96 186 1485716 1 3 0
+8 18 67 557979 0 2 0
+9 38 86 756180 24 71 561267
+10 119 253 2045425 11 19 179157
+11 148 349 2756993 2 9 0
+12 53 145 31658 0 3 0
+13 58 105 741776 2 4 218
+14 411 2393 25689596 10 47 505703
+15 203 1328 14191626 3 5 0
+16 32 35 183307 2 14 8399
+17 234 329 1422571 3 8 0
+18 124 176 1481522 3 10 0
+19 13 59 569659 0 0 0
+20 109 197 541466 6 10 0
+21 61 115 46393 3 17 165172
+22 93 188 1545154 2 5 0
+23 5 5 3249 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+es 1600 5747 52425307
+us 174 177 1162216
+gb 81 176 1203577
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 101 914213 20150511163251 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 96 14018400 0 0
+php 488 500526 0 0
+ttf 46 5594632 0 0
+html 1321 1293951 0 0
+js 4149 33383591 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 551 322
+winxp 150 150
+ios_iphone 2 2
+linux 87 34
+win7 3794 699
+macosx 452 182
+win8.1 1050 452
+Unknown 14 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+safari7.0 2 2
+chrome33.0.0.0 28 28
+chrome42.0.2311.90 408 141
+chrome42.0.2311.137 79 79
+firefox37.0 3351 527
+android 19 19
+msie7.0 150 150
+chrome42.0.2311.135 1537 665
+chrome37.0.0.0 6 6
+wget 22 1
+chrome42.0.2307.2 10 7
+chrome42.0.2311.111 392 166
+Unknown 14 14
+firefox24.0 65 33
+chrome30.0.0.0 17 17
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+BlueCoat_ProxySG 20150511173700
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+BlueCoat_ProxySG 20150511173700
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 472 472
+From1 0 0
+From2 0 0
+From3 20 20
+From4 1363 5608
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://localhost:8383/profesores/index.html 17 17
+http://localhost:8383/profesores/ 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 4 505703
+404 63 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 14
+/horarios%C3%A7.php 2 -
+/mas/mio 1 -
+/$foto 7 http://luis.iessv.es/
+/horario2.php 2 http://luis.iessv.es/
+/robots.txt 5 -
+/horario.php 2 -
+/templates/horario.html 5 http://luis.iessv.es/
+/horarios2.php 1 -
+/horario2 1 -
+/horario.php+ 2 -
+/mas 1 -
+/js/horario_controller.js 21 http://luis.iessv.es/
+/horarios.pho 1 -
+/lib/js/angular-sanitize.min.js.map 12 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+84.120.91.169.dyn.user.ono.com 782 4076 41793318 20150512130816
+195.57.19.96 252 392 1891904 20150512184132 20150512180718 /listadocentes.php
+static-81-75-225-77.ipcom.comunitel.net 199 469 2257045 20150512130324
+205.142.17.95.dynamic.jazztel.es 187 498 4934894 20150504233622
+199.19.249.196 149 149 985842 20150512184019 20150512180718 /verfaltas.php
+181.135.17.95.dynamic.jazztel.es 128 216 1539268 20150507225727
+194.183.97.159 33 79 561813 20150511180033
+199.91.135.140 15 15 174468 20150511173700
+144.red-79-147-225.dynamicip.rima-tde.net 12 12 635 20150509104818
+194.183.97.3 11 11 21652 20150508190807
+37.29.170.163 11 11 2854 20150512184150 20150512182503 /horario2.php
+37.29.152.6 9 53 475 20150506202242
+194.183.97.62 9 9 40853 20150506143152
+194.183.97.10 7 7 5043 20150508113432
+194.183.97.152 7 53 569582 20150510195327
+194.183.97.145 7 10 0 20150511173009
+31.4.212.16 7 7 1576 20150512154311
+31.4.210.191 7 7 968 20150506131058
+194.183.97.59 6 6 2643 20150507200503
+47-60-224-194.red-acceso.airtel.net 5 8 0 20150512182924 20150512182915 /templates/menu_principal.html
+47-60-44-33.red-acceso.airtel.net 4 4 1901 20150508134258
+84.120.74.180.dyn.user.ono.com 3 3 2160 20150506214342
+62.174.21.135.dyn.user.ono.com 2 2 14 20150512182938 20150512182938 /logearse.php
+194.183.97.94 1 1 1991 20150506143641
+81.60.45.82.dyn.user.ono.com 1 1 196 20150506201700
+47-60-44-167.red-acceso.airtel.net 1 1 5 20150507085041
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20150502 107 330 3459947 1
+20150503 38 82 733464 2
+20150504 222 442 3666763 7
+20150505 32 32 347507 6
+20150506 88 188 799827 10
+20150507 166 242 1334233 10
+20150508 60 114 44615 5
+20150509 71 220 2377884 3
+20150510 544 3427 36090407 5
+20150511 248 435 2876788 8
+20150512 279 588 3059665 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 7
+30s-2mn 7
+15mn-30mn 10
+2mn-5mn 4
+0s-30s 27
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 62
+/ 135 315270 26 2
+/horario2.php 104 47500 1 8
+/templates/fecha.html 92 39780 1 0
+/templates/motivo.html 91 239652 1 0
+/templates/trabajo.html 87 22275 0 0
+/templates/horah.html 87 90963 0 0
+/templates/horario_menu.html 79 162525 1 1
+/templates/menu_principal.html 64 57295 1 2
+/grupo_profesores.php 61 5192 8 4
+/ver_alumnos.php 60 2629 0 7
+/ver_grupos.php 55 27154 13 9
+/logearse.php 54 1370 5 1
+/lib/fonts/ionicons.ttf 46 5594632 0 1
+/templates/comentario_menu.html 37 27152 0 0
+/templates/menu_listado_alumnos_profesores.html 34 41748 0 3
+/horarios.php 27 53373 9 8
+/templates/grupos_listado.html 26 6762 0 1
+/templates/notasp_ver_alumnos.html 25 8760 0 0
+/templates/ver_comentario.html 25 5580 0 0
+/templates/grupos_profesores.html 25 7840 0 0
+/templates/notasp_ver_grupos.html 25 5340 1 0
+/templates/login.html 25 17117 2 1
+/templates/borrarfaltas.html 25 11240 0 0
+/asignaturas_por_profe_y_grupo.php 25 3765 0 0
+/templates/eliminar_comentario.html 24 9557 0 0
+/templates/ed_seleccion_grupo_coment.html 24 12046 0 0
+/comentarios_por_grupo.php 2 10 0 1
+/templates/reserva_horah.html 3 3246 0 0
+/lista_profesores.php 3 1975 0 0
+/templates/seleccion_alumno.html 24 26049 0 0
+/fotos_profesores.php 4 2524 0 0
+/eliminar_coment.php 2 0 0 0
+/templates/comentario_grupo.html 24 7011 0 0
+/templates/verfaltas.html 24 9671 0 0
+/templates/lista_profesores.html 24 7429 0 0
+/templates/todos_alumnos.html 24 11172 0 0
+/templates/seleccion_grupo.html 24 9367 0 0
+/templates/faltas.html 24 6308 0 0
+/verfaltas.php 17 16335 1 2
+/templates/reservas_fecha.html 5 1648 0 0
+/insertar_coment.php 4 0 0 2
+/todos_alumnos.php 9 45 0 2
+/templates/enviar_comentario.html 24 7980 0 0
+/ed_grupos.php 8 3748 0 0
+/templates/reserva_aula.html 3 1143 0 3
+/templates/reservas.html 10 2611 1 1
+/templates/reservas_listar.html 3 1299 0 2
+/fotografias_alumnos.php 10 440 0 0
+/templates/horad.html 24 18335 0 0
+/listadocentes.php 11 4831 0 0
+/templates/resumen.html 21 16609 0 0
+/templates/reserva_horad.html 3 3567 0 0
+/templates/reservas_quitar.html 4 1984 0 1
+/ver_comentarios.php 19 326051 0 2
+/templates/seleccion_asignaturas.html 24 14041 0 0
+/templates/alumnos_por_grupo.html 24 24073 0 0
+/templates/horario.html 7 565 0 1
+/ED_listado_grupos.php 7 3300 0 0
+/templates/notasp_insertar.html 20 21233 0 1
+/ed_alumnos_grupo.php 6 284 0 0
+/templates/fotos_profesores.html 24 11647 0 0
+/templates/selecprof.html 24 6061 0 0
+END_SIDER

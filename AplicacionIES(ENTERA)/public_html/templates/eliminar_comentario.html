@@ -1,0 +1,13 @@
+<ion-view view-title="Seleccione el comentario de {{nombre}} que desees eliminar">
+  <ion-content class="padding" has-header="true">
+
+		<ul class="list" ng-if="comentario_eliminar != false" >
+			<a class="item" ng-click="PopUp({{comentario.clave}})" ng-repeat="comentario in comentario_eliminar" >{{comentario.coment}}</a>	  
+		</ul>
+
+		<button class="button button-block button-positive" ng-click="eliminar_coment()" ng-click="PopUp()">
+			Eliminar comentario
+		</button>
+  </ion-content>
+</ion-view>
+

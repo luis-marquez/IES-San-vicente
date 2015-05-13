@@ -1,0 +1,286 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /home/luis/tmp/awstats/awstats.luis.iessv.es.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2006                
+POS_TIME 2679                
+POS_VISITOR 6530                
+POS_DAY 7544                
+POS_DOMAIN 3316                
+POS_LOGIN 3561                
+POS_ROBOT 3716                
+POS_WORMS 3886                
+POS_EMAILSENDER 4017                
+POS_EMAILRECEIVER 4160                
+POS_SESSION 7898                
+POS_SIDER 8076                
+POS_FILETYPES 4295                
+POS_DOWNLOADS 4447                
+POS_OS 4495                
+POS_BROWSER 4610                
+POS_SCREENSIZE 4782                
+POS_UNKNOWNREFERER 4856                
+POS_UNKNOWNREFERERBROWSER 5058                
+POS_ORIGIN 5140                
+POS_SEREFERRALS 5274                
+POS_PAGEREFS 5418                
+POS_SEARCHWORDS 5566                
+POS_KEYWORDS 5718                
+POS_MISC 2342                
+POS_ERRORS 5777                
+POS_CLUSTER 3417                
+POS_SIDER_404 5861                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150102235818 1 0 10912212299282
+FirstTime 20141201131142
+LastTime 20141223122929
+LastUpdate 20150103000126 1 0 0 0 0
+TotalVisits 27                  
+TotalUnique 16                  
+MonthHostsKnown 14                  
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 26 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 17 2295857 0 10 1150
+1 3 3 4489 3 9 355942
+2 0 0 0 2 4 242974
+3 0 0 0 2 4 3484
+4 0 0 0 1 4 350750
+5 0 0 0 2 3 3484
+6 0 0 0 2 2 3484
+7 1 1 1742 1 4 112410
+8 0 0 0 3 9 593724
+9 0 0 0 2 16 1990631
+10 7 14 1027857 1 14 815339
+11 0 0 0 1 2 1742
+12 1 6 1868555 3 8 6376
+13 1 1 1742 0 1 1150
+14 1 1 1742 1 3 2892
+15 6 15 1570121 2 12 6934
+16 0 0 0 1 5 350750
+17 4 8 903660 3 20 1254376
+18 0 0 0 1 7 241232
+19 3 3 5226 4 11 903068
+20 0 0 0 1 2 1742
+21 4 4 6231 3 8 9826
+22 3 3 5226 0 3 3450
+23 2 2 3484 1 6 353050
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 23 28 1904668
+es 18 50 5791264
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 72 6682776 20141231183106 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 17 2521914 0 0
+png 1 966864 0 0
+html 41 76081 0 0
+js 17 4118589 0 0
+gif 2 12484 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+linuxandroid 6 1
+winxp 1 1
+Unknown 6 2
+win7 65 22
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome39.0.2171.95 14 5
+mozilla 4 0
+lynx 2 2
+msie7.0 1 1
+firefox6.0 21 11
+chrome39.0.2171.71 30 6
+chrome38.0.2125.102 6 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Lynx/2.8.8pre.4_libwww-FM/2.14_SSL-MM/1.4.1_GNUTLS/2.12.23 20141206193942
+Mozilla/4.0_(compatible;) 20141218173653
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 33
+From1 0 0
+From2 0 0
+From3 0 0
+From4 12 45
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 64 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/themes/jquery.mobile.%20icons.min.css 2 http://www.luis.iessv.es/3conestilo.html
+/robots.txt 28 -
+/js/jquery.min.js 20 http://www.luis.iessv.es/2conjq.html
+/css/images/ajax-loader.gif 13 http://www.luis.iessv.es/css/jquery.mobile-1.4.4.css
+/pruebasjavascript/css/images/ajax-loader.gif 1 http://luis.iessv.es/pruebasjavascript/css/jquery.mobile-1.4.4.min.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+84.120.91.169.dyn.user.ono.com 8 15 1029599 20141206193942
+google-proxy-66-249-81-204.google.com 5 8 824414 20141223122929
+8.60.17.95.dynamic.jazztel.es 5 17 2295857 20141204000334
+67.49.17.95.dynamic.jazztel.es 4 13 1567374 20141219152710
+google-proxy-66-249-81-198.google.com 4 6 1058077 20141218224340
+google-proxy-66-249-81-200.google.com 2 2 2747 20141203013104
+google-proxy-66-249-81-201.google.com 2 2 3484 20141213231329
+google-proxy-66-249-88-213.google.com 2 2 2747 20141211171107
+google-proxy-66-249-88-215.google.com 2 2 3484 20141203153635
+google-proxy-66-249-93-132.google.com 1 1 1742 20141212190739
+google-proxy-66-249-83-161.google.com 1 1 1005 20141201211121
+199.19.249.196 1 1 1742 20141218173653
+google-proxy-66-249-81-197.google.com 1 1 1742 20141204014332
+195.57.19.96 1 5 898434 20141218173653
+google-proxy-66-249-83-173.google.com 1 1 1742 20141201211121
+google-proxy-66-249-93-134.google.com 1 1 1742 20141201131142
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20141201 4 4 6231 4
+20141203 4 4 5494 3
+20141204 6 18 2297599 2
+20141205 7 14 1027857 2
+20141206 3 3 5226 2
+20141207 1 1 1742 1
+20141208 1 1 1742 1
+20141209 1 1 1742 1
+20141211 2 2 3484 2
+20141212 2 2 3484 2
+20141213 1 1 1742 1
+20141218 3 7 901918 3
+20141219 5 14 1569116 2
+20141223 1 6 1868555 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+2mn-5mn 1
+30s-2mn 2
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 25 43550 24 20
+/appinsti/ 3 3015 2 3
+/pruebas.html 3 6291 0 0
+/3conestilo.html 3 5376 0 1
+/2conjq.html 2 5914 0 1
+/1sinjq.html 2 3174 0 1
+/pruebasjavascript/ 2 3762 0 0
+/otros.html 1 4999 1 1
+END_SIDER

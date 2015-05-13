@@ -1,0 +1,10 @@
+<ion-view view-title="Seleccione el profesor">
+		<ion-content class="padding" has-header="true">
+				<ul class="list">
+					<a ng-repeat="docente in docentes" href="#/horad/{{docente.documento}}" class="item">
+						<h2>{{docente.nombre}} {{docente.apellido1}} </h2>
+					</a>
+				</ul>
+		  </ion-content>
+</ion-view>
+

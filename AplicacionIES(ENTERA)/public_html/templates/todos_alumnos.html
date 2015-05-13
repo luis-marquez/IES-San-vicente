@@ -1,0 +1,19 @@
+<ion-view view-title="Seleccion Grupo">
+  <ion-content class="padding" has-header="true"><!-- 
+    <ul class="list">
+	  <li class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</li>
+	</ul>
+	 -->
+<div class="list">
+    <li class="item item-avatar" ng-repeat="alumno in alumnos">
+      <img src="http://sp1.fotolog.com/photo/49/57/55/go_franco/1307024469807_f.jpg">
+      <h2>{{alumno.nombre}} {{alumno.apellido1}} {{alumno.apellido2}}</h2>
+      <p>{{alumno.curso}} {{alumno.grupo}}</p>
+    </li>
+</div>
+
+<img src="$foto" ng-repeat="foto in imagen">
+
+	</ion-content>
+</ion-view>
+

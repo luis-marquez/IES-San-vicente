@@ -1,0 +1,9 @@
+<ion-view view-title="Selección asignatura">
+  <ion-content class="padding" has-header="true">
+    <ul class="list">  
+      <a href="#/seleccion_alumno/{{opcion}}/{{grupo}}/{{documento}}/{{asignatura.contenido}}" class="item" ng-repeat="asignatura in asignaturas" >{{asignatura.contenido}}</a>
+      <!-- <a ng-if="opcion=='eliminar'" href="#/eliminar_comentario/{{opcion}}/{{grupo.nombre}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+	  <a ng-if="opcion=='ver'" href="#/ver_comentario/{{opcion}}/{{grupo.nombre}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+	 --></ul>
+  </ion-content>
+</ion-view>

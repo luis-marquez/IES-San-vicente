@@ -1,0 +1,7 @@
+<ion-view view-title="Third screen - {{grupo}}">
+  <ion-content class="padding" has-header="true">
+    <ul class="list">
+      <a href="#/alumnos_por_grupo/{{opcion}}/{{grupo.codigo}}" class="item" ng-repeat="grupo in grupos_ed" >{{grupo.nombre}} {{grupo.ensenanza}} {{grupo.tutor}}</a>
+	</ul>
+  </ion-content>
+</ion-view>

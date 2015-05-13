@@ -1,0 +1,11 @@
+<ion-view view-title="Curso">
+  <ion-content class="padding" has-header="true">
+	<h3>Cursos: </h3>
+	<div class="list">
+		<a class="item item-icon-right" href="#/reserva_grupo/{{fecha}}/{{horad}}/{{horah}}/{{aula}}/{{aulacodigo}}/{{curso.abreviatura}}/{{curso.codigo}}" ng-repeat="curso in cursos">
+		<b>{{curso.nombre_cas}}</b> <h2>{{curso.abreviatura}}</h2>
+		</a>
+	</div>
+	
+  </ion-content>
+</ion-view>

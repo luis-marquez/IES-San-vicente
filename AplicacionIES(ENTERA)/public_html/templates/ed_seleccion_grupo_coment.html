@@ -1,0 +1,10 @@
+<ion-view view-title="Seleccion Grupo">
+  <ion-content class="padding" has-header="true">
+    <ul class="list">
+      <a  ng-if="opcion=='insertar_eq'" href="#/seleccion_alumno/{{opcion}}/{{grupo.nombre}}/{{docente}}/" class="item" ng-repeat="grupo in grupos" >{{grupo.nombre}}</a>
+      <a  ng-if="opcion=='ver_eq'" href="#/comentario_grupo/{{opcion}}/{{grupo.nombre}}" class="item" ng-repeat="grupo in grupos" >{{grupo.nombre}}</a>
+      <a  ng-if="opcion=='eliminar_eq'" href="#/eliminar_comentario/{{opcion}}/{{grupo.nombre}}///" class="item" ng-repeat="grupo in grupos" >{{grupo.nombre}}</a>
+	</ul>
+  </ion-content>
+</ion-view>
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!-- reservar aula
+list reser h no muetsra la lista con todos los resulatados al poner H (formato 24h)
+onfocus no va
+ -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jquery Mobile Example</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css">
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery.mobile-1.4.4.min.js"></script>
+		<script src="js/functions.js"></script>
+	</head>
+
+
+	<body>
+		<div data-role="page" id="reser">
+		
+		<!-- 		Encabezado -->
+			<div data-role="header">			
+				<a href="#rightpanel3" class="jqm-navmenu-link ui-nodisc-icon ui-alt-icon ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button">Menu</a>
+				<h1>App instituto. Luis Márquez</h1>
+			</div>
+
+			<form>
+				<fieldset data-role="controlgroup">
+				
+				
+				    <input type="text" name="text-1" id="docente" value="PAblo">
+
+				    <input type="date" data-clear-btn="true" onFocus="vaciar(this)" name="date-2" id="fecha" value="" placeholder="Fecha (dd-mm-aaaa)">
+				
+				    <input type="time" data-clear-btn="false" onFocus="vaciar(this)"  name="time-1" id="horaini" value="" placeholder="Hora Inicio (--:--)">
+				
+				    <input type="time" data-clear-btn="true" onFocus="vaciar(this)" name="time-2" id="horafin" value="" placeholder="Hora Final (--:--)">
+										
+
+				<div>
+					<div class="ui-grid-a ui-responsive">
+				    	<div class="ui-block-a" style="margin-left: 7%; left: 7%; margin-top: 01.5%;" >						
+								<select name="slider2" id="deja_trab_faltas" data-role="slider">
+							    	<option value="off">No</option>
+							    	<option value="on">Sí</option>
+								</select>
+						</div>
+					    <div class="ui-block-b" style="margin: 0; width: 75%; height: 400px; margin-left: 50%; left: -25%; position: absolute;" >						
+							<select name="select-native-6" id="causa_faltaprof">
+								<option value='enfermedad_comun' id='enfermedad_comun'><br>Enfermedad común(Sin baja medica)</br></option>
+								<option value='actividades_extraescolares' id='actividades_extraescolares'><br>Actividades extraescolares</br></option>
+								<option value='asistencia_cursos' id='asistencia_cursos'><br>Asistencia a cursos de perfeccionamiento profesional</br></option>
+								<option value='asistencia_conferencias' id='asistencia_conferencias'><br>Asistencia conferencias, seminarios, congresos y jornadas</br></option>
+								<option value='asistencia_medica' id='asistencia_medica'><br>Asistencia médico, educativo y asistencial</br></option>
+								<option value='asistencia_pruebas' id='asistencia_pruebas'><br>Asistencia pruebas selectivas y exámenes</br></option>
+								<option value='baja_medica' id='baja_medica'><br>Baja médica</br></option><option value='cele_matrimonio' id='cele_matrimonio'><br>Celebración de matrimonio o unión de hecho</br></option>
+								<option value='enfermedad_familiares' id='enfermedad_familiares'><br>Enfermedad de familiares</br></option>
+								<option value='enfermedad_grave_fallecimiento' id='enfermedad_grave_fallecimiento'><br>Enfermedad grave o fallecimiento de familiar</br></option>
+								<option value='representativas_formacion' id='representativas_formacion'><br>Funciones representativas y formación</br></option>
+								<option value='interrupcion_embarazo' id='interrupcion_embarazo'><br>Interrupción del embarazo</br></option>
+								<option value='matrimonio_union' id='matrimonio_union'><br>Matrimonio o unión de hecho</br></option><option value='nacimiento_adopcion' id='nacimiento_adopcion'><br>Nacimiento/adopción</br></option>
+								<option value='tecnicas_prenatales' id='tecnicas_prenatales'><br>Técnicas prenatales</br></option>
+								<option value='mudanza' id='mudanza'><br>Translado de domicilio natural</br></option><option value='deber_inexcusable' id='deber_inexcusable'><br>Deber inexcusable</br></option>");
+
+						    </select>
+						</div>
+					</div>
+
+
+				
+				<!--     <label for="coment_prof_falt">Coment para eq.dir. y profesores:</label> -->
+   						<textarea placeholder="Comentario para equipo directivo y profesores:" name="coment_prof_falt" id="coment_prof_falt"></textarea>
+
+				<!--     <label for="coment_alumnos_falt">Comentario para alumnos:</label> -->
+   						<textarea placeholder="Comentario para alumnos:" name="coment_alumnos_falt" id="coment_alumnos_falt"></textarea>
+
+				</fieldset>
+				<input type="button" class="ui-btn ui-corner-all" onclick="add_faltaprof(); restart()" value="Introducir falta">
+			</form>
+			<!-- 			<button class="ui-btn ui-corner-all" onclick="add_reserva(); restart()"> Añadir reserva</button> -->
+			<div data-role="panel" id="rightpanel3" data-position="left" data-display="overlay" data-theme="a">
+				<h3>Menu:</h3>
+				<ul data-role="listview">
+					<li><a href="../../faltaprof/index.html">Falta profesor</a></li>
+					<li><a href="../../comentario/index.html">Comentar a un alumno</a></li>					
+					<li><a href="../../reseraula/index.html">Reservar aula</a></li>					
+				</ul>
+				<br/>
+				<br/>
+				<br/>
+				<a href="#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a>
+			</div><!-- /rightpanel3 -->
+		</div>
+	</body>
+</html>

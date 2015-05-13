@@ -1,0 +1,33 @@
+<ion-view view-title="Seleccione el dia que va a faltar">
+	<ion-content class="padding" has-header="true">
+		<div class="list">
+			<div class="item item-divider">
+				Resumen
+			</div>
+			<a class="item" href="#">
+				Profesor:{{documento}}
+			</a>
+			<a class="item" href="#">
+				Fecha:{{fecha}}
+			</a>
+			<a class="item" href="#">
+				Desde las {{horad}} hasta las {{horah}}
+			</a>
+			<a class="item" href="#">
+				Motivo:{{motivo}}
+			</a>
+			<a class="item" href="#">
+				Deja trabajo:{{trab}}
+			</a>
+		</div>
+		
+		Introduce un comentario para los profesores
+		<textarea placeholder="Comentario para profesores" ng-model="coments"></textarea>
+		Introduce un comentario para los alumnos
+		<textarea placeholder="Comentario para alumnos" ng-model="comentalu"></textarea>
+
+		<button class="button button-full button-positive" ng-click="insertar_faltas(documento,fecha,horad,horah,motivo,trab,comentalu,coments)">
+			Introducir falta
+		</button>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<!-- reservar aula
+list reser h no muetsra la lista con todos los resulatados al poner H (formato 24h)
+onfocus no va
+ -->
+ 
+ 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jquery Mobile Example</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css">
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery.mobile-1.4.4.min.js"></script>
+		<script src="js/functions.js"></script>
+	</head>
+	
+
+	<body onload="aula_reser(); grupo_reser(); asignatura_reser()">
+		<div data-role="page" id="reser">
+		
+		<!-- 		Encabezado -->
+			<div data-role="header">			
+				<a href="#rightpanel3" class="jqm-navmenu-link ui-nodisc-icon ui-alt-icon ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button">Menu</a>
+				<h1>App instituto. Luis Márquez</h1>
+			</div>
+			
+			<br/>
+			
+			
+			<!-- Formulario -->				
+			<form>
+				<fieldset data-role="controlgroup">
+					<a button href="#listreser" onclick="list_reser()" class='ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment'>Ver mis reservas</a>
+				<!-- Introducir identificador del profesor -->
+				    <input type="text" name="text-1" id="docente" value="PAblo">
+				
+				<!-- Introducir fecha de la reserva-->
+				    <input type="date" data-clear-btn="true" onFocus="vaciar(this)" onBlur="verificarEntrada(this)" name="date-2" id="fecha" value="" placeholder="Fecha (dd-mm-aaaa)">
+				
+				<!-- Introducir hora inicio reserva -->				
+				    <input type="time" data-clear-btn="false" onFocus="vaciar(this)" onBlur="verificarEntrada(this)" name="time-1" id="horaini" value="" placeholder="Hora Inicio (--:--)">
+
+				<!-- Introducir hora final reserva -->								
+				    <input type="time" data-clear-btn="true" onFocus="vaciar(this)" onBlur="verificarEntrada(this)" name="time-2" id="horafin" value="" placeholder="Hora Final (--:--)">
+					
+				<!-- Selecionar asignatura -->									
+					    <select name="select-native-5" id="contenido">
+					        <option value="#">Seleccione asignatura</option>
+					    </select>
+
+				<!-- Selecionar grupo para realizar la reserva -->				
+					    <select name="select-native-7" onBlur="verificarEntradagrupo(this)" id="grupo">
+					        <option value="#">Seleccione grupo</option>
+					    </select>			
+					
+				<!-- Selecionar aula para realizar la reserva -->				
+					    <select name="select-native-6" onBlur="verificarEntradaaula(this)" id="aula">
+					        <option value="#">Seleccione aula</option>
+					    </select>
+				
+				<!-- Selecionar algo que no se que es lo que se -->								
+					    <select name="select-native-7" onBlur="verificarEntradarama(this)" id="esperama">
+					        <option value="#">ramaespecialidad</option>
+					        <option value="#">ramaespecialidad</option>
+					        <option value="#">ramaespecialidad</option>
+					    </select>
+				</fieldset>
+				
+				<!-- Enviar y realizar reserva -->								
+				<input type="button" class="ui-btn ui-corner-all" onclick="add_reserva(); restart()" value="Añadir reserva">
+			</form>
+			<!-- Cierra formulario -->								
+
+			
+			<!-- 	POr si acaso		<button class="ui-btn ui-corner-all" onclick="add_reserva(); restart()"> Añadir reserva</button> -->
+			
+			
+			<!-- Panel desplegable desde la izquierda -->								
+			<div data-role="panel" id="rightpanel3" data-position="left" data-display="overlay" data-theme="a">
+				<h3>Menu:</h3>
+				<ul data-role="listview">
+					<li><a href="../faltaprof/index.html">Falta profesor</a></li>
+					<li><a href="../comentario/index.html">Comentar a un alumno</a></li>					
+					<li><a href="../reseraula/index.html">Reservar aula</a></li>					
+				</ul>
+				<br/>
+				<br/>
+				<br/>
+				<a href="#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a>
+			</div>
+			<!-- Cierro panel desplegable -->
+		</div>
+		
+		
+		<!-- Pantalla para eliminar y ver un aula -->								
+		<div data-role="page" id="listreser" onload="list_reser()">
+			<h1><center>Reservas de aulas</center></h1>
+			<a button href="#reser" class='ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment'>Atras</a>
+			<ul id="list" data-role="listview">
+			</ul>
+			
+			<!-- Pop up seguro eliminar un aula  -->							
+			<div data-role='popup' width='100%' id='confirm_reser'>
+				<br/>			
+				<h3> ¿Estas seguro de que desea eliminar esta reserva? </h3>
+				<a button href='#listcoment' onclick='delete_reserva()' class='ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment'>Si</button>
+				<a button href='#listcoment' class='ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment' data-rel='white'>No</a>
+			</div>
+			<!-- Cierro pop up -->								
+
+		</div>
+		<!-- cierre pantalla eliminar aula -->								
+
+	</body>
+</html>

@@ -1,0 +1,13 @@
+<ion-view view-title="Selección alumno">
+  <ion-content class="padding" has-header="true">
+    <ul class="list">
+      <a ng-if="opcion=='insertar_eq'"href="#/enviar_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}/{{asignatura.contenido}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+      <a ng-if="opcion=='eliminar_eq'" href="#/eliminar_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+	  <a ng-if="opcion=='ver_eq'" href="#/ver_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+
+      <a ng-if="opcion=='insertar'"href="#/enviar_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}/{{asignatura.contenido}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+      <a ng-if="opcion=='eliminar'" href="#/eliminar_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+	  <a ng-if="opcion=='ver'" href="#/ver_comentario/{{opcion}}/{{grupo}}/{{alumno.nombre}}/{{alumno.nia}}/{{documento}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
+	</ul>
+  </ion-content>
+</ion-view>

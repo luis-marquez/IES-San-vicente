@@ -1,0 +1,397 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /home/luis/tmp/awstats/awstats.luis.iessv.es.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2003                
+POS_TIME 2674                
+POS_VISITOR 11299               
+POS_DAY 12359               
+POS_DOMAIN 3347                
+POS_LOGIN 3613                
+POS_ROBOT 3768                
+POS_WORMS 3938                
+POS_EMAILSENDER 4069                
+POS_EMAILRECEIVER 4212                
+POS_SESSION 12731               
+POS_SIDER 12938               
+POS_FILETYPES 4347                
+POS_DOWNLOADS 4527                
+POS_OS 4605                
+POS_BROWSER 4711                
+POS_SCREENSIZE 4985                
+POS_UNKNOWNREFERER 5059                
+POS_UNKNOWNREFERERBROWSER 5196                
+POS_ORIGIN 5328                
+POS_SEREFERRALS 5467                
+POS_PAGEREFS 5622                
+POS_SEARCHWORDS 5770                
+POS_KEYWORDS 5922                
+POS_MISC 2338                
+POS_ERRORS 5981                
+POS_CLUSTER 3469                
+POS_SIDER_404 6067                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141101071930 1 0 9945754735002
+FirstTime 20141008193002
+LastTime 20141031230646
+LastUpdate 20141101084527 1 0 0 0 0
+TotalVisits 63                  
+TotalUnique 17                  
+MonthHostsKnown 12                  
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 98 1822607 6 49 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 2 2 5109
+4 0 0 0 4 12 1255029
+5 0 0 0 0 0 0
+6 0 0 0 0 3 110229
+7 7 15 8076 0 14 547684
+8 72 248 1407228 14 309 0
+9 47 211 2350458 1 103 899649
+10 0 0 0 0 1 0
+11 50 197 2015418 2 134 0
+12 121 481 4402188 7 234 0
+13 8 27 1810068 1 17 1820
+14 64 255 192506 2 142 491940
+15 8 21 2370230 2 28 0
+16 2 7 0 0 20 0
+17 29 94 23906 0 41 0
+18 10 25 910149 0 11 0
+19 64 175 3395896 5 79 0
+20 70 270 2432844 2 98 0
+21 78 314 6014707 1 154 0
+22 45 194 956219 6 101 9464
+23 62 264 61757050 8 126 902606
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+es 698 2776 82248080
+us 56 105 7708319
+gb 5 15 1913151
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 36 4223530 20141031225033 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 974 9705144 0 0
+png 44 3867456 0 0
+html 759 2418542 0 0
+js 1111 15130357 0 0
+avi 1 60710599 0 0
+gif 7 37452 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/pruebas/sv1.avi 1 0 60710599
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+linuxandroid 79
+winxp 19
+Unknown 1
+winvista 2278
+linux 47
+win7 472
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+chrome37.0.2062.124 447
+mozilla 8
+chrome38.0.2125.104 5
+msie7.0 19
+chrome37.0.2062.120 5
+firefox6.0 5
+chrome27.0.1453 5
+chrome38.0.2125.111 2280
+chrome35.0.1916.141 29
+Unknown 1
+chrome38.0.2125.102 82
+chrome21.0.1180.89 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google_Analytics_Snippet_Validator 20141008200500
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google_Analytics_Snippet_Validator 20141008200500
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 471 473
+From1 0 0
+From2 1 1
+From3 0 0
+From4 287 2422
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1565 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 95
+/robots.txt 7 -
+/pruebas/themes/jquery.mobile.%20icons.min.css 1 http://www.luis.iessv.es/pruebas/index2.html
+/222.html 3 http://luis.iessv.es/
+/mario-background_6.png 3 http://luis.iessv.es/otros.html
+/StarBox.js 3 http://luis.iessv.es/otros.html
+/css/images/ajax-loader.gif 557 http://luis.iessv.es/css/jquery.mobile-1.4.4.css
+/_assets/js/index.js 3 http://luis.iessv.es/
+/pruebas/css/jquery.mobile.structure-1.4.4.css 1 http://www.luis.iessv.es/pruebas/index2.html
+/images/loading.gif 3 http://luis.iessv.es/
+/themes/jquery.mobile.%20icons.min.css 47 http://luis.iessv.es/
+/EditorScripts.js 3 http://luis.iessv.es/otros.html
+/audio/menu.ogg 3 http://luis.iessv.es/otros.html
+/Cookie.css 3 http://luis.iessv.es/otros.html
+/pruebasjavascript/css/images/ajax-loader.gif 88 http://luis.iessv.es/pruebasjavascript/css/jquery.mobile-1.4.4.min.css
+/MultipleCoinBox.js 3 http://luis.iessv.es/otros.html
+/audio/editor.ogg 3 http://luis.iessv.es/otros.html
+/width=%22100%%22 10 http://luis.iessv.es/
+/MushroomBox.js 3 http://luis.iessv.es/otros.html
+/pruebas/css/jquery.mobile-1.4.4.css 3 http://www.luis.iessv.es/pruebas/index.html
+/jquery.spritely-0.6.1.js 3 http://luis.iessv.es/otros.html
+/Handler.js 3 http://luis.iessv.es/otros.html
+/pruebas.htm 1 -
+/BallMonster.js 3 http://luis.iessv.es/otros.html
+/menu.css 3 http://luis.iessv.es/otros.html
+/EditorMsgBoxes.js 3 http://luis.iessv.es/otros.html
+/practicas.html 2 -
+/editor.css 3 http://luis.iessv.es/otros.html
+/Coin.js 3 http://luis.iessv.es/otros.html
+/search 2 http://luis.iessv.es/
+/SpikedTurtle.js 3 http://luis.iessv.es/otros.html
+/diashow.js 3 http://luis.iessv.es/otros.html
+/id= 2 http://luis.iessv.es/otros.html
+/mario-background_1.png 3 http://luis.iessv.es/otros.html
+/js/jquery.mobile-1.4.4.min.js 3 http://luis.iessv.es/
+/mario-background_8.png 3 http://luis.iessv.es/otros.html
+/audio/die.ogg 3 http://luis.iessv.es/otros.html
+/_assets/css/jqm-demos.css 3 http://luis.iessv.es/
+/SoundManager.js 3 http://luis.iessv.es/otros.html
+/js/jquery.js 3 http://luis.iessv.es/
+/audio/peach.mp3 3 http://luis.iessv.es/otros.html
+/www.google.com 2 http://luis.iessv.es/
+/pruebas/js/jquery.mobile-1.4.4.js 4 http://www.luis.iessv.es/pruebas/index.html
+/mario-background_5.png 3 http://luis.iessv.es/otros.html
+/audio/success.ogg 3 http://luis.iessv.es/otros.html
+/audio/music.ogg 3 http://luis.iessv.es/otros.html
+/pruebas/js/jquery.min.js 5 http://www.luis.iessv.es/pruebas/index.html
+/Bullet.js 3 http://luis.iessv.es/otros.html
+/audio/peach.ogg 3 http://luis.iessv.es/otros.html
+/PipePlant.js 3 http://luis.iessv.es/otros.html
+/GreenTurtle.js 3 http://luis.iessv.es/otros.html
+/pruebas/themes/colores.min.css 1 http://www.luis.iessv.es/pruebas/index2.html
+/CoinBox.js 3 http://luis.iessv.es/otros.html
+/Hero.js 3 http://luis.iessv.es/otros.html
+/pruebaswebindexs/index.html 1 -
+/audio/editor.mp3 3 http://luis.iessv.es/otros.html
+/pruebas/css/bootstrap.min.css 5 http://www.luis.iessv.es/pruebas/index.html
+/pruebas/js/jquery-2.1.1.min.js 4 http://www.luis.iessv.es/pruebas/index.html
+/otras.html 2 http://luis.iessv.es/
+/mario-background_3.png 3 http://luis.iessv.es/otros.html
+/audio/die.mp3 3 http://luis.iessv.es/otros.html
+/immagine.gif 2 http://luis.iessv.es/
+/icon.ico 1 -
+/audio/gameover.ogg 3 http://luis.iessv.es/otros.html
+/Escritorio/url.jpg 3 http://luis.iessv.es/
+/js/jquery.min.js 601 http://luis.iessv.es/
+/mario-background_7.png 3 http://luis.iessv.es/otros.html
+/audio/invincible.ogg 3 http://luis.iessv.es/otros.html
+/StaticPlant.js 3 http://luis.iessv.es/otros.html
+/_assets/img/jquery-logo.png 1 http://luis.iessv.es/exper.html
+/gen_204 4 http://luis.iessv.es/
+/arrow.png 3 http://luis.iessv.es/otros.html
+/audio/ending.ogg 3 http://luis.iessv.es/otros.html
+/game.css 3 http://luis.iessv.es/otros.html
+/xjs/_/js/k=xjs.s.es.YhCbPYYoysY.O/m=sx,c,sb,cr,elog,epb,jsa,prw,r,hsm,j,pcc,csi/am=BOr_U8EgMCNQwAQEqwM/rt=j/d=1/t=zcms/rs=ACT90oGXOgi63pcSTPiQh90LzNX1K2d4dQ 2 http://luis.iessv.es/
+/mario-background_2.png 3 http://luis.iessv.es/otros.html
+/audio/music.mp3 3 http://luis.iessv.es/otros.html
+/pruebasjavascript/index.html 1 -
+/prueba.html 12 http://luis.iessv.es/
+/myLevel.js 3 http://luis.iessv.es/otros.html
+/audio/menu.mp3 3 http://luis.iessv.es/otros.html
+/audio/success.mp3 3 http://luis.iessv.es/otros.html
+/images/nav_logo195.png 3 http://luis.iessv.es/
+/Cookie.js 3 http://luis.iessv.es/otros.html
+/controlls.css 3 http://luis.iessv.es/otros.html
+/audio/gameover.mp3 3 http://luis.iessv.es/otros.html
+/GameLoop.js 3 http://luis.iessv.es/otros.html
+/audio/ending.mp3 3 http://luis.iessv.es/otros.html
+/pruebas/sv1.avi.html 1 -
+/DragAndDrop.js 3 http://luis.iessv.es/otros.html
+/index 2 -
+/audio/invincible.mp3 3 http://luis.iessv.es/otros.html
+/index1 2 -
+/css/themes/default/jquery.mobile-1.4.4.min.css 3 http://luis.iessv.es/
+/mario-background_4.png 3 http://luis.iessv.es/otros.html
+/images/icons/gplus-32.png 2 http://luis.iessv.es/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+84.120.91.169.dyn.user.ono.com 532 2189 10762831 20141031143042
+195.57.19.100 99 345 3508537 20141031191943
+195.57.19.96 58 211 3667517 20141023192452
+199.19.249.196 19 19 40463 20141030192825
+google-proxy-66-249-93-16.google.com 19 56 5898180 20141030131609
+google-proxy-66-249-81-203.google.com 5 6 978914 20141030132435
+232.51.17.95.dynamic.jazztel.es 5 11 60710599 20141031221227
+google-proxy-66-249-93-134.google.com 5 5 5101 20141031230646
+38.red-81-38-7.dynamicip.rima-tde.net 3 15 2698947 20141010135547
+google-proxy-66-249-93-131.google.com 3 7 4356 20141031214507
+google-proxy-66-249-93-48.google.com 2 8 777948 20141029210414
+google-proxy-66-249-81-200.google.com 2 2 1770 20141030173113
+194.183.97.83 2 6 899960 20141029185026
+194.183.97.107 2 4 113542 20141008201138
+247.100.17.95.dynamic.jazztel.es 1 5 899649 20141018114933
+194.183.97.100 1 5 899649 20141009154118
+google-proxy-66-249-88-215.google.com 1 1 1587 20141008200500
+google-proxy-66-249-81-197.google.com 0 1 0 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20141008 38 104 2957620 5
+20141009 1 5 899649 1
+20141010 3 15 2698947 2
+20141012 1 5 899649 1
+20141013 2 6 2957 2
+20141015 24 109 1382270 2
+20141016 3 3 3174 2
+20141018 1 5 899649 1
+20141023 2 6 351965 2
+20141028 92 420 1024826 3
+20141029 291 1036 13296637 19
+20141030 243 975 4701787 15
+20141031 58 207 62750420 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 4
+2mn-5mn 7
+15mn-30mn 4
+0s-30s 25
+30s-2mn 10
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 327 438413 47 27
+/otros.html 165 1605386 7 7
+/pruebasjavascript/ 109 50350 2 10
+/pruebas.html 97 124222 3 7
+/index2.html 25 47449 0 3
+/exper.html 17 112828 1 1
+/1sinjq.html 4 7718 1 2
+/index1.html 4 4761 2 3
+/222.html 3 7575 0 1
+/3conestilo.html 3 8064 0 1
+/pruebas/ 2 5914 0 1
+/2conjq.html 1 1587 0 0
+/pruebas/index2.html 1 2688 0 0
+/pruebas/index1.html 1 1587 0 0
+END_SIDER

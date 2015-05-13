@@ -1,0 +1,14 @@
+<ion-view view-title="Pinche sobre la falta que desea borrar">
+  <ion-content class="padding" has-header="true">
+     <ul class="list">
+		<a href="#" ng-repeat="falta in faltas" class="item" ng-click="PopUp({{falta.dni}})">{{falta.nombre}} {{falta.apellido1}}
+			<h3>Desde las {{falta.horad}} hasta las {{falta.horah}} </h3>
+			<h4>Fecha: {{falta.fecha}} </h4>
+			<h3>Motivo:{{falta.motivo}} </h3>
+			<h3>Comebtario para alumnos:{{falta.coments}} </h3>
+			<h3>Comentario para profesores:{{falta.comentsalum}}</h3>				
+		</a>
+	</ul>
+  </ion-content>
+</ion-view>
+

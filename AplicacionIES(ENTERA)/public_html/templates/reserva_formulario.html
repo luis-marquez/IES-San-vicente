@@ -1,0 +1,59 @@
+<ion-view view-title="Formulario Reserva">
+  <ion-content class="padding" has-header="true">
+  <h3>¿Son los siguientes datos correctos?</h3>
+	<ul class="list">
+		<li class="item">
+		<b>Aula:</b><h3>{{aula}}</h3>
+		</li>
+		<li class="item">
+		<b>Grupo:</b><h3>{{grupo}}</h3>
+		</li>
+		<li class="item">
+		<b>Curso:</b><h3>{{curso}}</h3>
+		</li>
+		<li class="item">
+		<b>Asignatura:</b><h3>{{asignatura}}</h3>
+		</li>
+		<li class="item">
+		<b>Fecha:</b><h3>{{fecha}}</h3>
+		</li>
+		<li class="item">
+		<b>Desde:</b><h3>{{horad}}</h3>
+		</li>
+		<li class="item">
+		<b>Hasta:</b><h3>{{horah}}</h3>
+		</li>
+	</ul>
+	
+	
+	<!-- <div class="list">
+		<label class="item item-input">
+			<input type="text" placeholder="Aula">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="DNI">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Grupo">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Día">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Hora desde:">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Hora hasta:">
+		</label>
+	</div> -->
+	</br>
+	<center>
+	<button class="button button-outline button-small button-positive">
+		<a href="#/first/" class="item">Deshacer</a>
+	</button>
+	<button class="button button-outline button-small button-positive">
+		<a href="#/first/" class="item" ng-click="insertar_reserva(aulacodigo,fecha,horad,horah,cursocodigo,grupocodigo)">Finalizar</a>
+	</button>
+	</center>
+  </ion-content>
+</ion-view>

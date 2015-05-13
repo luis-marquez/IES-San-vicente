@@ -1,0 +1,17 @@
+[04-May-2015 21:42:53 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[04-May-2015 21:49:09 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[04-May-2015 23:36:22 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[05-May-2015 13:07:17 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[05-May-2015 13:07:39 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[05-May-2015 18:08:56 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[05-May-2015 18:08:56 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[05-May-2015 21:45:18 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[06-May-2015 06:59:14 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[06-May-2015 14:36:41 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[07-May-2015 07:20:08 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[07-May-2015 19:55:46 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[07-May-2015 20:58:02 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[07-May-2015 20:58:02 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 258
+[07-May-2015 21:03:48 Europe/Madrid] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luis/public_html/horarios.php on line 256
+[07-May-2015 21:04:45 Europe/Madrid] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/luis/public_html/horarios.php on line 256
+[07-May-2015 21:05:06 Europe/Madrid] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luis/public_html/horarios.php on line 256

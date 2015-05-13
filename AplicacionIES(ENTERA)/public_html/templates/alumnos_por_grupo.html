@@ -1,0 +1,36 @@
+<ion-view view-title=" comentario---{{coment_eliminar.coment}} Second screen - nombre{{nombre}} - nia{{nia}} - grupo{{grupo}} --nombre {{nombre}}">
+  <ion-content class="padding" has-header="true">
+
+		<ul class="list" ng-if="opcion=='no_foto'">
+			<li class="item" ng-repeat="alumno in alumnos_ed" >{{alumno.nombre}}</li>	  
+		</ul>
+<!-- ng-if="opcion=='si_foto'"  -->
+	
+<!-- 		<a href="" div ng-if="opcion=='si_foto'" class="list card" ng-click="popupfoto({{alumno.nia}})"  ng-repeat="alumno in alumnos_ed">
+			<center><h6>{{alumno.grupo}}</h6>
+			<p>{{alumno.nombre}} {{alumno.apellido1}} {{alumno.apellido2}}</p></center>
+		  <div class="item item-image">
+			<img src="http://sp1.fotolog.com/photo/49/57/55/go_franco/1307024469807_f.jpg" width='100%' height='100%' >
+		  </div>
+		   -->
+	<!-- 	  <a class="item item-icon-left assertive" href="#">
+			<i class="icon ion-music-note"></i>
+			Start listening
+		  </a> -->
+
+		</a>
+		
+		<ul ng-if="opcion=='si_foto'" class="list">
+			<a class="item" ng-click="popupfoto({{alumno.nia}})"  ng-repeat="alumno in alumnos_ed">			
+				<center>
+					<h5>{{alumno.grupo}}</h5>
+					<p>
+						{{alumno.nombre}} {{alumno.apellido1}} {{alumno.apellido2}}
+					</p>
+				</center>
+			</a>	  
+		</ul>
+		
+  </ion-content>
+</ion-view>
+
