@@ -7,10 +7,16 @@ asdasdahklsjdhasldasdas
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 me aburro pruasdfsadfasdfeba luis
 =======
 me aburroetnojnkñlñk6ñ,_
 >>>>>>> origin/master
+=======
+
+me aburro pruasdfsadfasdfeba luis
+
+>>>>>>> parent of 0d58528... rr
 
 LUNES
 $datos[0][0]
