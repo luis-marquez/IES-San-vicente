@@ -6,11 +6,9 @@ asdasdahklsjdhasldasdas
 
 
 
-<<<<<<< HEAD
+
 me aburro pruasdfsadfasdfeba luis
-=======
-me aburroetnojnkñlñk6ñ,_
->>>>>>> origin/master
+
 
 LUNES
 $datos[0][0]
