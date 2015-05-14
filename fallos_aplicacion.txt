@@ -1,6 +1,4 @@
-- Notas parciales (grupos): arreglar la base de datos para que salgan datos reales.
-
-- Notas parciales (alumnos): no se ven los alumnos de la base de datos.
+- Notas parciales (alumnos): se ven los alumnos pero no avanza a la pantralla de insetar notas parciales.
 
 - Notas parciales (alumnos): el buscador no funciona.
 
@@ -10,7 +8,7 @@
 
 - Comentarios (comentarios): meter comentarios reales.
 
-- Horarios: meter mas horas.
+-  Horarios: meter mas horas.
 
 - Faltas de alumnos: Hacer.
 
@@ -28,6 +26,8 @@
 
 - Reservar recursos (borrar): arreglar popup.
 
+- Reservar recursos (inicio): arreglar botón de retroceso.
+
 - Publicar fechas de examenes y actividades: Acabar.
 
-- Añadir equipo directivo
+-Añadir equipo directivo
