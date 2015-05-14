@@ -5,14 +5,13 @@ starter.controller('LoginCtrl', function($scope,$rootScope,$state,$http) {
             if (data[0] && data[0].documento && data[0].documento==dni) {
                 $rootScope.dniDocente = dni;
                 $rootScope.claveDocente = clave_prof;
+                $state.go("menu_principal");
             }
             else {
                 alert("No ha introducido correctamente los datos");
-                $state.go("login");
             }
         }).error(function(data) {
-            alert("No ha introducido correctamente los datos");
-            $state.go("login");            
+            alert("No ha introducido correctamente los datos");          
         });
     }; 	 
 });
