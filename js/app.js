@@ -121,9 +121,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })
 
     .state('notasp_ver_alumnos', {
-        url: "/notasp_ver_alumnos/:grupo",
+        url: "/notasp_ver_alumnos/:grupo/:grupocodigo",
         templateUrl: "templates/notasp_ver_alumnos.html",
         controller: 'notasp_ver_alumnos_controller'
+    })
+    
+    .state('notasp_insertar', {
+        url: "/notasp_insertar/:grupo/:grupocodigo/:nombre/:nia/",
+        templateUrl: "templates/notasp_insertar.html",
+        controller: 'notasp_insertar_controller'
     })
 	
     .state('ed_seleccion_grupo_coment', {
@@ -198,11 +204,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'resumenCtrl'
     })
 
-    .state('notasp_insertar', {
-        url: "/notasp_insertar/:nombre/:nia",
-        templateUrl: "templates/notasp_insertar.html",
-        controller: 'notasp_insertar_controller'
-    })
 	
     .state('reservas', {
         url: "/reservas",

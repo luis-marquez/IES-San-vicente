@@ -1,4 +1,7 @@
 starter.controller('notasp_insertar_controller', function($scope, $stateParams, $http, $ionicPopup) {
+    
+    $scope.grupo = $stateParams.grupo;
+	$scope.grupocodigo = $stateParams.grupocodigo;
     $scope.nombre = $stateParams.nombre;		
     $scope.nia = $stateParams.nia;
 	
