@@ -1,8 +1,9 @@
-starter.controller('notasp_ver_alumnos_controller', function($scope, $stateParams, $http) {
+starter.controller('notasp_ver_alumnos_controller', function($scope,$rootScope,$stateParams,$http) {
+
     $scope.grupo = $stateParams.grupo;
 	
-	$http.get("http://luis.iessv.es/ver_alumnos.php?grupo="+$scope.grupo).success(function(data){
-		$scope.alumnos=data;
-	});
+    $http.get($rootScope.ajaxURL+"ver_alumnos.php?grupo="+$scope.grupo).success(function(data){
+        $scope.alumnos=data;
+    });
 
 });

@@ -1,7 +1,7 @@
-starter.controller('notasp_ver_grupos_controller', function($scope,$http) {
+starter.controller('notasp_ver_grupos_controller', function($scope,$rootScope,$http) {
 
-	$http.get("http://luis.iessv.es/ver_grupos.php").success(function(data){
-		$scope.grupos=data;
-	});
+    $http.get($rootScope.ajaxURL+"ver_grupos.php").success(function(data){
+        $scope.grupos=data;
+    });
 
 });

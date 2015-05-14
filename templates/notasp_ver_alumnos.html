@@ -1,13 +1,13 @@
 <ion-view view-title="notasp_ver_alumnos - {{grupo}}">
-  <ion-content class="padding" has-header="true">
-	<label class="item item-input">
-		<i class="icon ion-search placeholder-icon"></i>
-		<input type="search" placeholder="Search">
-	</label>
-	
-	<ul class="list">
-      <a href="#/notasp_insertar/{{alumno.nombre}}/{{alumno.nia}}" class="item" ng-repeat="alumno in alumnos" >{{alumno.nombre}}</a>
-    </ul>
-  </ion-content>
+    <ion-content class="padding" has-header="true">
+        <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" placeholder="Search"/>
+        </label>
+
+        <ul class="list">
+            <a href="#/notasp_insertar/{{alumno.nombre}}/{{alumno.nia}}" class="item" ng-repeat="alumno in alumnos">{{alumno.nombre}}</a>
+        </ul>
+    </ion-content>
 </ion-view>
 
