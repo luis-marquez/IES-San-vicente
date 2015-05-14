@@ -10,7 +10,7 @@
 
 - Comentarios (comentarios): meter comentarios reales.
 
--  Horarios: meter mas horas.
+- Horarios: meter mas horas.
 
 - Faltas de alumnos: Hacer.
 
@@ -28,8 +28,6 @@
 
 - Reservar recursos (borrar): arreglar popup.
 
-- Reservar recursos (inicio): arreglar botón de retroceso.
-
 - Publicar fechas de examenes y actividades: Acabar.
 
--Añadir equipo directivo
+- Añadir equipo directivo
