@@ -1,4 +1,4 @@
-starter.controller('notasp_ver_alumnos_controller', function($scope,$rootScope,$stateParams,$http) {
+starter.controller('notasp_ver_alumnos_controller', function($scope, $rootScope, $stateParams, $http) {
 
     $scope.grupo = $stateParams.grupo;
 	

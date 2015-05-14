@@ -1,16 +1,16 @@
-starter.controller('notasp_insertar_controller', function($scope, $stateParams, $http, $ionicPopup) {
+starter.controller('notasp_insertar_controller', function($scope, $stateParams, $http, $ionicPopup, $rootScope) {
     $scope.nombre = $stateParams.nombre;		
     $scope.nia = $stateParams.nia;
 	
 	$scope.poner_notas = function(nia,coment,codnota,fecha,tipo) {	
-		$http.get("http://luis.iessv.es//anadir_notasp.php?nia="+nia+"&codnota="+codnota+"&fecha="+fecha+"&coment="+coment+"&tipo="+tipo).success(function(data){
+		$http.get($rootScope.ajaxURL+"anadir_notasp.php?nia="+nia+"&codnota="+codnota+"&fecha="+fecha+"&coment="+coment+"&tipo="+tipo).success(function(data){
 			$scope.alumnos=data;
 				$scope.showAlert();
 		});
 	};
 	
 	$scope.listar_notas = function(nia) {	
-		$http.get("http://luis.iessv.es//listar_notasp.php?nia="+nia).success(function(data){
+		$http.get($rootScope.ajaxURL+"listar_notasp.php?nia="+nia).success(function(data){
 			$scope.alumnos=data;
 				$scope.showAlert2(data);
 		});

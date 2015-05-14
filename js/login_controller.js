@@ -1,4 +1,4 @@
-starter.controller('LoginCtrl', function($scope,$rootScope,$state,$http) {
+starter.controller('LoginCtrl', function($scope, $rootScope, $state, $http) {
 
     $scope.logearse = function(dni,clave_prof) {
         $http.get($rootScope.ajaxURL+"logearse.php?dni="+dni+"&clave="+clave_prof).success(function(data){

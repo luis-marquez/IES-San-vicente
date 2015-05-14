@@ -1,8 +1,8 @@
-starter.controller('ListaProfesoresCtrl', function($scope, $stateParams, $http, $ionicPopup ) {
+starter.controller('ListaProfesoresCtrl', function($scope, $stateParams, $http, $ionicPopup, $rootScope) {
     $scope.opcion = $stateParams.opcion;
     $scope.grupo = "ASIR";
 	
-	$http.get("http://luis.iessv.es/lista_profesores.php").success(function(data){
+	$http.get($rootScope.ajaxURL+"lista_profesores.php").success(function(data){
 		$scope.profesores=data;
 	});
 });

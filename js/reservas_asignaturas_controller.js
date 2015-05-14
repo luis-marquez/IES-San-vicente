@@ -1,4 +1,4 @@
-starter.controller('reservas_asignaturasCtrl', function($scope, $stateParams, $http) {
+starter.controller('reservas_asignaturasCtrl', function($scope, $stateParams, $http, $rootScope) {
 	$scope.fecha = $stateParams.fecha;
 	$scope.horad = $stateParams.horad;
 	$scope.horah = $stateParams.horah;
@@ -11,7 +11,7 @@ starter.controller('reservas_asignaturasCtrl', function($scope, $stateParams, $h
 	$scope.asignatura = $stateParams.asignatura;
 	$scope.asignaturacodigo = $stateParams.asignaturacodigo;
 	
-	$http.get("http://localhost/lista_asignaturas.php").success(function(data){
+	$http.get($rootScope.ajaxURL+"lista_asignaturas.php").success(function(data){
 		$scope.asignaturas=data;
 	});	
 });

@@ -1,6 +1,6 @@
-starter.controller('reservas_quitarCtrl', function($scope, $stateParams, $http, $ionicPopup) {
+starter.controller('reservas_quitarCtrl', function($scope, $stateParams, $http, $ionicPopup, $rootScope) {
 
-	$http.get("http://localhost/lista_reservas.php").success(function(data){
+	$http.get($rootScope.ajaxURL+"lista_reservas.php").success(function(data){
 		$scope.reservas=data;
 	});
 	

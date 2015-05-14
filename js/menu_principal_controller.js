@@ -1,6 +1,6 @@
-starter.controller('MenuPrincipalCtrl', function($scope,$http) {
+starter.controller('MenuPrincipalCtrl', function($scope, $http, $rootScope) {
 
-	/*$http.get("http://localhost/ver_grupos.php").success(function(data){
+	/*$http.get($rootScope.ajaxURL+"ver_grupos.php").success(function(data){
 		$scope.grupos=data;
 	});*/
 

@@ -1,7 +1,7 @@
-starter.controller('ComentarioMenuCtrl', function($scope,$rootScope,$http) {
+starter.controller('ComentarioMenuCtrl', function($scope, $rootScope, $http, $rootScope) {
 
 
-	/*$http.get("http://localhost/ver_grupos.php").success(function(data){
+	/*$http.get("$rootScope.ajaxURL+"ver_grupos.php").success(function(data){
 		$scope.grupos=data;
 	});*/
 

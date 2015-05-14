@@ -1,4 +1,4 @@
-starter.controller('resumenCtrl', function($scope,$stateParams,$http){
+starter.controller('resumenCtrl', function($scope, $stateParams, $rootScope, $http){
 	$scope.documento = $stateParams.documento;
 	$scope.horad = $stateParams.horad;
 	$scope.horah = $stateParams.horah;
@@ -7,7 +7,7 @@ starter.controller('resumenCtrl', function($scope,$stateParams,$http){
 	$scope.motivo = $stateParams.motivo;
 			
 	$scope.insertar_faltas = function(documento,fecha,horad,horah,motivo,trab,comentalu,comentprof) {
-		$http.get("http://luis.iessv.es/faltas.php?dni="+documento+"&fecha="+fecha+"&horad="+horad+
+		$http.get($rootScope.ajaxURL+"faltas.php?dni="+documento+"&fecha="+fecha+"&horad="+horad+
 		"&horah="+horah+"&dejatrab="+trab+"&motivo="+motivo+"&coments="+coments+"&comentsalum="+comentalu).success(function(data){
 		$scope.faltasprof=data;
 	});

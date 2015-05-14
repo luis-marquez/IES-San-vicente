@@ -1,4 +1,4 @@
-starter.controller('AlumnosGruposCtrl', function($scope, $stateParams, $http, $ionicPopup ) {
+starter.controller('AlumnosGruposCtrl', function($scope, $rootScope, $stateParams, $http, $ionicPopup) {
     $scope.opcion = $stateParams.opcion;
     $scope.grupo = $stateParams.grupo;
 	
@@ -7,7 +7,7 @@ starter.controller('AlumnosGruposCtrl', function($scope, $stateParams, $http, $i
 /* 	ARREGLADO -----pasas cod en el state params en lugar el codigo del curso */
 
 	$scope.popupfoto = function(nia) {	
-		$http.get("http://luis.iessv.es/fotografias_alumnos.php?num="+nia).success(function(data){
+		$http.get($rootScope.ajaxURL+"fotografias_alumnos.php?num="+nia).success(function(data){
 			$scope.imagenes=data;
 				$scope.showAlert2(data);
 		});

@@ -1,4 +1,4 @@
-starter.controller('reserva_grupoCtrl', function($scope, $stateParams, $http) {
+starter.controller('reserva_grupoCtrl', function($scope, $stateParams, $http, $rootScope) {
 	$scope.fecha = $stateParams.fecha;
 	$scope.horad = $stateParams.horad;
 	$scope.horah = $stateParams.horah;
@@ -11,7 +11,7 @@ starter.controller('reserva_grupoCtrl', function($scope, $stateParams, $http) {
 	
 	
 
-	$http.get("http://localhost/ver_grupos.php").success(function(data){
+	$http.get($rootScope.ajaxURL+"ver_grupos.php").success(function(data){
 		$scope.grupos=data;
 	});
 

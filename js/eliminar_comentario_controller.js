@@ -1,4 +1,4 @@
-starter.controller('EliminarComentarioCtrl', function($scope, $stateParams, $http, $ionicPopup ) {
+starter.controller('EliminarComentarioCtrl', function($scope, $rootScope, $stateParams, $http, $ionicPopup) {
     $scope.nombre = $stateParams.nombre;
     $scope.nia = $stateParams.nia;
     $scope.documento = $stateParams.documento;
@@ -10,8 +10,8 @@ starter.controller('EliminarComentarioCtrl', function($scope, $stateParams, $htt
 	 });
 	 confirmPopup.then(function(res) {
 	   if(res) {
-			$http.get("http://luis.iessv.es/eliminar_coment.php?clave="+clave).success(function(data){
-				$http.get("http://luis.iessv.es/ver_comentarios.php?nia="+$scope.nia).success(function(data){
+			$http.get($rootScope.ajaxURL+"eliminar_coment.php?clave="+clave).success(function(data){
+				$http.get($rootScope.ajaxURL+"ver_comentarios.php?nia="+$scope.nia).success(function(data){
 					$scope.comentario_eliminar=data;
 				});				
 			});
@@ -26,7 +26,7 @@ starter.controller('EliminarComentarioCtrl', function($scope, $stateParams, $htt
 
 /* $scope.nia = "123";	 
  */
-	$http.get("http://luis.iessv.es/ver_comentarios.php?nia="+$scope.nia).success(function(data){
+	$http.get($rootScope.ajaxURL+"ver_comentarios.php?nia="+$scope.nia).success(function(data){
 		$scope.comentario_eliminar=data;
 	});
 	   

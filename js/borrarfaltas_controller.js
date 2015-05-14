@@ -1,6 +1,6 @@
-starter.controller('borrarCtrl', function($scope,$http,$ionicPopup) {
+starter.controller('borrarCtrl', function($scope, $rootScope, $http, $ionicPopup) {
     
-	$http.get("http://luis.iessv.es/verfaltas.php").success(function(data){
+	$http.get($rootScope.ajaxURL+"verfaltas.php").success(function(data){
 	$scope.faltas=data;
 	});
 	 
