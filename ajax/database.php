@@ -4,7 +4,7 @@
     function open_database()
     {
         // Connecting, selecting database
-        $database = @mysql_connect ('localhost', 'luis', 'marquezCARPINTERO1996') or die ('I cannot connect to the database because: ' . mysql_error());
+        $database = @mysql_connect ('localhost', 'root', '') or die ('I cannot connect to the database because: ' . mysql_error());
         if ($database === FALSE) die('I cannot connect to the database because: ' . mysql_error());
 
         mysql_select_db('luis_ies') or die('Could not select database');
