@@ -24,6 +24,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'HorarioMenuCtrl'
     })
 	
+    .state('tu_horario', {
+        url: "/tu_horario",
+        templateUrl: "templates/tu_horario.html",
+        controller: 'TuHorarioCtrl'
+    })
+	
     .state('menu_principal', {
         url: "/menu_principal",
         templateUrl: "templates/menu_principal.html",
