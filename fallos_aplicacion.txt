@@ -26,6 +26,8 @@
 
 - Reservar recursos (borrar): arreglar popup.
 
+- Horarios : No funciona ningun PHP, menos el primero de "tu horario".
+
 - Reservar recursos (inicio): arreglar botón de retroceso.
 
 - Publicar fechas de examenes y actividades: Acabar.

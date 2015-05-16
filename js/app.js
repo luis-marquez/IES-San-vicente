@@ -29,6 +29,32 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: "templates/tu_horario.html",
         controller: 'TuHorarioCtrl'
     })
+
+    .state('horario_tus_grupos', {
+        url: "/horario_tus_grupos/:codigo_grupo/:nombre_grupo",
+        templateUrl: "templates/horario_tus_grupos.html",
+        controller: 'HorarioTusGruposCtrl'
+    })
+
+	
+    .state('ed_horario_grupos', {
+        url: "/ed_horario_grupos",
+        templateUrl: "templates/ed_horario_grupos.html",
+        controller: 'EdHorarioGruposCtrl'
+    })	
+
+    .state('listado_profesores_horario', {
+        url: "/listado_profesores_horario",
+        templateUrl: "templates/listado_profesores_horario.html",
+        controller: 'ListadoProfesoresHorarioCtrl'
+    })	
+
+    .state('horario_profesores', {
+        url: "/horario_profesores/:documento/:nombre/:apellido1",
+        templateUrl: "templates/horario_profesores.html",
+        controller: 'EdHorarioProfesoresCtrl'
+    })	
+		
 	
     .state('menu_principal', {
         url: "/menu_principal",
@@ -88,6 +114,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: "/seleccion_grupo/:opcion/:documento",
         templateUrl: "templates/seleccion_grupo.html",
         controller: 'SeleccionGrupoCtrl'
+    })
+
+	.state('horario_seleccion_grupo', {
+        url: "/horario_seleccion_grupo",
+        templateUrl: "templates/horario_seleccion_grupo.html",
+        controller: 'HorarioSeleccionGrupoCtrl'
     })
 
     .state('seleccion_alumno', {
