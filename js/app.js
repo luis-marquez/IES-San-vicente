@@ -116,7 +116,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'SeleccionGrupoCtrl'
     })
 
-    .state('horario_seleccion_grupo', {
+	.state('horario_seleccion_grupo', {
         url: "/horario_seleccion_grupo",
         templateUrl: "templates/horario_seleccion_grupo.html",
         controller: 'HorarioSeleccionGrupoCtrl'
@@ -158,6 +158,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'notasp_ver_grupos_controller'
     })
 
+	
+    .state('notas_parciales_menu', {
+        url: "/notas_parciales_menu",
+        templateUrl: "templates/notas_parciales_menu.html",
+        controller: 'NotasParcialesMenuCtrl'
+    })
+
+		
     .state('notasp_ver_alumnos', {
         url: "/notasp_ver_alumnos/:grupo/:grupocodigo",
         templateUrl: "templates/notasp_ver_alumnos.html",
