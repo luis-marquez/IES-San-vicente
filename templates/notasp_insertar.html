@@ -1,15 +1,15 @@
 <ion-view view-title="notasp_insertar - {{nombre}} - {{nia}}">
-  <ion-content class="padding" has-header="true">
+    <ion-content class="padding" has-header="true">
 	<div class="list list-inset">
-	  <label class="item item-input">
-		<input type="text" placeholder="Nombre de la tarea/examen a calificar" ng-model="coment">
-	  </label>
+            <label class="item item-input">
+		<input type="text" placeholder="Nombre de la tarea/examen a calificar" ng-model="coment"/>
+            </label>
 	</div>
 	
 	<div class="list list-inset">
-	  <label class="item item-input">
-		<input type="text" placeholder="Tipo de nota, por ejemplo Examen parcial 1" ng-model="tipo">
-	  </label>
+            <label class="item item-input">
+		<input type="text" placeholder="Tipo de nota, por ejemplo Examen parcial 1" ng-model="tipo"/>
+            </label>
 	</div>
 	
 	
@@ -20,25 +20,25 @@
 	</div> -->
 
 	<label class="item item-input">
-	  <span class="input-label">Nota</span>
-	  <input type="number" ng-model="codnota">
+            <span class="input-label">Nota</span>
+            <input type="number" ng-model="codnota"/>
 	</label>
 	
 	
 		
 	<label class="item item-input">
-	  <span class="input-label">Date</span>
-	  <input type="text" name="fecha" ng-model="fecha">
+            <span class="input-label">Date</span>
+            <input type="text" name="fecha" ng-model="fecha"/>
 	</label>
 	
 	<button class="button button-block button-positive" ng-click="poner_notas(nia,coment,codnota,fecha,tipo)">
-	  Submit
+            Submit
 	</button>
 	
 	<button class="button button-block button-positive" ng-click="listar_notas(nia,coment,codnota,fecha,tipo)">
-	  Ver notas
+            Ver notas
 	</button>
 	
-  </ion-content>
+    </ion-content>
 </ion-view>
 
