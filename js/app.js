@@ -116,7 +116,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'SeleccionGrupoCtrl'
     })
 
-	.state('horario_seleccion_grupo', {
+    .state('horario_seleccion_grupo', {
         url: "/horario_seleccion_grupo",
         templateUrl: "templates/horario_seleccion_grupo.html",
         controller: 'HorarioSeleccionGrupoCtrl'

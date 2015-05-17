@@ -1,10 +1,10 @@
-<ion-view view-title="Selección Grupo">
-  <ion-content class="padding" has-header="true">
-    <ul class="list">
+<ion-view view-title="Selección profesor">
+    <ion-content class="padding" has-header="true">
+        <ul class="list">
 
-	<a href="#/horario_profesores/{{profesor.documento}}/{{profesor.nombre}}/{{profesor.apellido1}}" class="item" ng-repeat="profesor in profesores" >{{grupo.nombre}}</a>
-	
-    </ul>
-  </ion-content>
+            <a href="#/horario_profesores/{{profesor.documento}}/{{profesor.nombre}}/{{profesor.apellido1}}" class="item" ng-repeat="profesor in profesores" >{{profesor.apellido1}} {{profesor.apellido2}}, {{profesor.nombre}}</a>
+
+        </ul>
+    </ion-content>
 </ion-view>
 
